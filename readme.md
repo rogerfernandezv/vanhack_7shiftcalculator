@@ -18,8 +18,12 @@ git clone https://github.com/rogerfernandezv/vanhack_7shiftcalculator
 # Access the folder
 cd vanhack_7shiftcalculator
 
+# install components
+composer install
+
 # s
 php artisan serve
+
 
 # to test
 composer test

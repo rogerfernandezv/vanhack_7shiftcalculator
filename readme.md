@@ -21,6 +21,12 @@ cd vanhack_7shiftcalculator
 # install components
 composer install
 
+# copy env
+cp .env.example .env
+
+# key generate
+php artisan key:generate
+
 # s
 php artisan serve
 
@@ -28,6 +34,6 @@ php artisan serve
 # to test
 composer test
 
-# Go to: http://localhost:8080/
+# Go to: http://localhost:8080/shift
 
 ```

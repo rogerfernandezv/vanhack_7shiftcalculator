@@ -4,6 +4,10 @@
 # 7Shift Calculator Vanhack 
 
 
+## About
+
+Simple system for calculate daily and weekly overtime.
+Also calculate total salary based on this.
 
 ## Installing
 
@@ -17,6 +21,8 @@ cd vanhack_7shiftcalculator
 # s
 php artisan serve
 
+# to test
+composer test
 
 # Go to: http://localhost:8080/
 
